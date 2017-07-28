@@ -3,11 +3,13 @@ package com.james.jspdemo.listener;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletRequestEvent;
 import javax.servlet.ServletRequestListener;
+import javax.servlet.annotation.WebListener;
 import javax.servlet.http.HttpServletRequest;
 
 /**
  * Created by JAMES on 2017/7/28.
  */
+@WebListener
 public class PerfStatListener implements ServletRequestListener{//servletRequest请求监听器
 
     @Override
