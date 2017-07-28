@@ -18,6 +18,7 @@ import java.util.Date;
         initParams = {
                 @WebInitParam(name = "logFileName",value = "log.txt"),
                 @WebInitParam(name = "prefix",value = "URI:")
+
         }
 )
 public class LogFilter implements Filter{
