@@ -14,13 +14,13 @@ import java.util.Date;
 /**
  * Created by fsuser on 2017-07-28.
  */
-@WebFilter(filterName = "logFilter",urlPatterns = {"/*"},
+/*@WebFilter(filterName = "logFilter",urlPatterns = {"*//*"},
         initParams = {
                 @WebInitParam(name = "logFileName",value = "log.txt"),
                 @WebInitParam(name = "prefix",value = "URI:")
 
         }
-)
+)*/
 public class LogFilter implements Filter{
 
     private PrintWriter logger;

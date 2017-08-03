@@ -11,9 +11,9 @@ import java.util.*;
 /**
  * Created by fsuser on 2017-08-01.
  */
-@WebFilter(filterName = "autoCorrectFilter",urlPatterns = {
-        "/*"
-})
+/*@WebFilter(filterName = "autoCorrectFilter",urlPatterns = {
+        "*//*"
+})*/
 public class AutoCorrectFilter implements Filter{
 
     @Override
